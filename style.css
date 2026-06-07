@@ -58,16 +58,20 @@ ul {
 }
 
 .sidebar-menu {
-  padding: 20px;
+  padding: 20px 0;
 }
 .sidebar-menu-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #757575;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px;
-  color: #757575;
-  cursor: pointer;
+  gap: 10px;
 }
+.sidebar-menu-item:hover {
+  background-color: #d9e7f3;
+}
+
 
 /* メインコンテンツ */
 .main-content {
@@ -123,7 +127,15 @@ ul {
   padding: 32px;
 }
 
-/* 単位変換セクションのスタイルを以下に記載してください */
+/* コンバーターカード */
+.converter-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  max-width: 448px;
+  margin: 0 auto;
+}
 
 /* フォーム関連 */
 .form-group {
@@ -167,6 +179,9 @@ ul {
   color: #4f7cac;
 }
 
+/* 暗記カードセクションのスタイルを以下に記載してください */
+
+/* .hidden クラス */
 .hidden {
   display: none;
 }
